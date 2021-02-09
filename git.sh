@@ -57,6 +57,6 @@ git remote set-url origin \
 
 cd $HOME/.config/nvim
 git remote set-url origin \
-    git@github.com:ayoubelmhamdi/scripts.git
+    git@github.com:ayoubelmhamdi/nvim.git
 
 #++++++++++++++++++++++++++++++++++++++++
