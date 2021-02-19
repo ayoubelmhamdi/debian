@@ -98,13 +98,8 @@ sudo npm install          \
      --no-package-lock \
      --only=prod       \
 
-mkdir -p \
-      $HOME/.vim/bundle/Vundle.vim \
-      $HOME/.config/nvim 
-
-git clone					 \
-    https://github.com/VundleVim/Vundle.vim.git \
-    $HOME/.vim/bundle/Vundle.vim 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 git clone 					 \
     https://github.com/ayoubelmhamdi/nvim.git	 \
