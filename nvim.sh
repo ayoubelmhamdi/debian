@@ -4,6 +4,9 @@ cd $HOME/neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 
+# this folder for tell vim savetmp file there
+mkdir -p $HOME/.local/tmp/
+
 mkdir -p $HOME/.config/coc/extensions 
 cd $HOME/.config/coc/extensions
 
