@@ -46,6 +46,7 @@ sudo apt-get install -y   \
         curl              \
         wget              \
         git               \
+        silversearcher-ag \
 
 
 # reset version coc-extenstion 
